@@ -27,6 +27,8 @@ public class test {
         emploe2.setMontant_semaine(clavier.nextDouble());
         emploe2.calculPaie();
         emploe2.chequePaie();
+        
+        // peux tu refaire le main avec un tableau de type employé
     }
 
 }
