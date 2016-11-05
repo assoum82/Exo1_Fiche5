@@ -5,7 +5,17 @@ import java.util.Scanner;
  */
 public class test {
     public static void main(String[] args) {
-        Scanner clavier=new Scanner(System.in);
+         Employe exemple[] =new Employe[3];
+        exemple [0]=new Employe("Salim","PDG");
+        exemple[0].setSalaire(100000);
+        exemple[0].chequePaie();
+        exemple [1]=new EmployerTempPartiel("Halima","Secrétaire");
+        exemple[1].setSalaire(20000);
+        exemple[1].chequePaie();
+        exemple [2]=new EmployeTempPlein("AbdeHalim","Agent de sécurité");
+        exemple[2].setSalaire(15000);
+        exemple[2].chequePaie();
+      /*  Scanner clavier=new Scanner(System.in);
         System.out.print("entrer le nom d'employe : ");
         String name1=clavier.nextLine();
         System.out.print("entrer sa fonction : ");
@@ -26,7 +36,7 @@ public class test {
         System.out.print("entrer le montant de semaine : ");
         emploe2.setMontant_semaine(clavier.nextDouble());
         emploe2.calculPaie();
-        emploe2.chequePaie();
+        emploe2.chequePaie();*/
         
         // peux tu refaire le main avec un tableau de type employé
     }
