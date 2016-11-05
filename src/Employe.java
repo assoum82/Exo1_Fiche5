@@ -27,6 +27,6 @@ public class Employe {
         return salaire;
     }
     public void chequePaie(){
-        System.out.println("le nom est " + nom + " son fonction est " + job + " son salaire est " + salaire );
+       System.out.println("payer a l'ordre de " + nom + " ( " + job + " ) " + " *** " + salaire + " DA ");
     }
 }
