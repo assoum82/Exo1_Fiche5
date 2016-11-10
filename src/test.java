@@ -15,6 +15,13 @@ public class test {
         exemple [2]=new EmployeTempPlein("AbdeHalim","Agent de sécurité");
         exemple[2].setSalaire(15000);
         exemple[2].chequePaie();
+          System.out.println("------------------------------------------");
+        System.out.println("|  Nom      |  Job      |   Salaire    |");
+        for(int i=0;i<3;i++){
+            System.out.println("-----------------------------------------");
+            System.out.println("| "  + exemple[i].getNom()+       " | "  + exemple[i].getJob()+ " | "+exemple[i].getSalaire()+  " |");
+        }
+        System.out.println("------------------------------------------");
       /*  Scanner clavier=new Scanner(System.in);
         System.out.print("entrer le nom d'employe : ");
         String name1=clavier.nextLine();
